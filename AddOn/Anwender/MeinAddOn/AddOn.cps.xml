@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<AddOnClasses>
+  <ChangeRealTimeStatus>{ Pascal Script Engine }
+{ Event: ChangeRealTimeStatus }
+{ Parameter:
+  Cockpit.Parameter = &lt;RennStatus&gt; }
+
+begin
+
+end.</ChangeRealTimeStatus>
+  <Bestrafung>{ Pascal Script Engine }
+{ Event: Bestrafung }
+{ Parameter:
+  Cockpit.Slot=&lt;SlotPlatz&gt;,
+  Cockpit.Station=&lt;1=ausgesprochen;
+                   2=disqualifiziert&gt;,
+  Cockpit.Parameter=&lt;1=Rundenstrafe;
+                     2=Zeitstrafe;
+                     3=Boxengassestrafe&gt; }
+
+begin
+
+end.</Bestrafung>
+  <DigInputEvent>{ Pascal Script Engine }
+{ Event: DigInputEvent }
+{ Parameter:
+  Cockpit.Slot=&lt;SlotPlatz;0/1=Status Eingang&gt;,
+  Cockpit.Station=&lt;EingangNummer&gt;,
+  Cockpit.Parameter=&lt;DeviceNummer&gt; }
+
+begin
+
+end.</DigInputEvent>
+  <CUSensorGruppe>{ Pascal Script Engine }
+{ Event: CUSensorGruppe }
+{ Parameter:
+  Cockpit.Slot=&lt;FahrzeugID&gt;,
+  Cockpit.Station=&lt;SensorGruppe 2/3&gt; }
+
+begin
+
+end.</CUSensorGruppe>
+  <Startampel>{ Pascal Script Engine }
+{ Event: Startampel }
+{ Parameter:
+  Cockpit.Parameter = &lt;Parameter des Events&gt; }
+
+begin
+
+end.</Startampel>
+</AddOnClasses>
