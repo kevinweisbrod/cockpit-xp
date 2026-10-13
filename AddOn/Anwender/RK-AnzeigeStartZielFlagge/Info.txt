@@ -1,0 +1,11 @@
+RK-AnzeigeStartZielFlagge
+Blendet fuer eine einstellbare Zeit eine Zielflagge bei Ueberfahrt Start/Ziel im RBS pro Fahrer ein.
+Bei Chaos bleibt die Flagge stehen. So hat man eine optische Kontrolle, ob die Runde bei Chaos gezaehlt wurde oder nicht, d.h. ob ein Fahrzeug ueber Start/Ziel gerollt ist, ohne dass die Runde gezaehlt wurde.
+
+Einstellungen (ConfigPackage.xml):
+ Anzeigedauer  Zeit in ms, wie lange die Flagge nach der Ueberfahrt sichtbar bleibt
+
+Voraussetzung:
+ Der Rennbildschirm (RBS) muss das Flaggen-Element pro Fahrer enthalten.
+
+STATUS: Entwurf - Programmlogik noch nicht implementiert.

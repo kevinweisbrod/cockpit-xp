@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ConfigPackage>
+<Variables>
+<Variable xmlindex="1" beschreibung="*** Einstellungen RK-AnzeigeStartZielFlagge ***" name="xxx" datatyp="Text" value=" "></Variable>
+<Variable xmlindex="2" beschreibung="Anzeigedauer der Zielflagge [ms]" name="Anzeigedauer" datatyp="Integer" value="2000"></Variable>
+</Variables>
+
+<IOConfig>
+</IOConfig>
+
+</ConfigPackage>
